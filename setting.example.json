@@ -1,0 +1,8 @@
+{
+  "PORT": 25566,
+  "USE_SSL": false,
+  "SSL_CERT": "YOUR_SSL_CERT",
+  "SSL_KEY": "YOUR_SSL_KEY",
+
+  "SECRET_KEY": "CONNECT_SECRET_KEY"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "minecraft-socket",
+  "version": "0.0.1",
+  "description": "Websocket server for minecraft.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js",
+    "dev": "npx nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdgustn/minecraft-socket.git"
+  },
+  "author": "Hyonsu",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wjdgustn/minecraft-socket/issues"
+  },
+  "homepage": "https://github.com/wjdgustn/minecraft-socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
