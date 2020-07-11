@@ -14,7 +14,7 @@ module.exports = (server, app) => {
 
         if(parsedQuery.secretkey != setting.SECRET_KEY) {
             ws.terminate();
-            console.log(`${ip}가 secretkey 없이 접근을 시도했습니다.`);
+            console.log(`${ip}가 잘못된 secretkey로 접근을 시도했습니다.`);
             return;
         }
         else app.set('ws', ws);
